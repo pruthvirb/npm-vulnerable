@@ -1,0 +1,36 @@
+Request ID: 776c16c4
+Repo Path ID: test-remote:artifactorysuw1-artifactory-05-01-2023-23-54-35.tar.gz
+Method Name: GET
+User: admin
+Time: 2023-04-29T09:33:12.062Z
+Thread: 2023-04-29T09:33:12.060Z|6f26232b2b18dc1b|emote/artifactorysuw1-artifactory-05-01-2023-23-54-35.tar.gz|http-nio-8081-exec-1
+Steps: 
+2023-04-29T09:33:12.062Z Received request
+2023-04-29T09:33:12.062Z Request source = 52.215.237.185, Last modified = 31-12-69 23:59:59 +00:00, If modified since = -1, Thread name = 2023-04-29T09:33:12.060Z|6f26232b2b18dc1b|emote/artifactorysuw1-artifactory-05-01-2023-23-54-35.tar.gz|http-nio-8081-exec-1
+2023-04-29T09:33:12.062Z Executing any BeforeDownloadRequest user plugins that may exist
+2023-04-29T09:33:12.062Z Retrieving info from remote repository 'test-remote' type Generic
+2023-04-29T09:33:12.065Z Found the resource in the cache - checking for expiry
+2023-04-29T09:33:12.065Z Returning cached resource
+2023-04-29T09:33:12.065Z Found resource in local cache - returning cached resource
+2023-04-29T09:33:12.065Z Requested resource is found = true
+2023-04-29T09:33:12.065Z Requested resource is blocked = false
+2023-04-29T09:33:12.065Z Request is HEAD = false
+2023-04-29T09:33:12.065Z Request is for a checksum = false
+2023-04-29T09:33:12.065Z Target repository is not remote or doesn't store locally = true
+2023-04-29T09:33:12.065Z Requested resource was not modified = false
+2023-04-29T09:33:12.065Z Responding with found resource
+2023-04-29T09:33:12.065Z Executing any AltAllResponses user plugins that may exist
+2023-04-29T09:33:12.065Z Alternative response status is set to 0 and message to 'null'
+2023-04-29T09:33:12.065Z Found no alternative content handles
+2023-04-29T09:33:12.065Z Executing any AltResponse user plugins that may exist
+2023-04-29T09:33:12.065Z Alternative response status is set to -1 and message to 'null'
+2023-04-29T09:33:12.065Z Found no alternative content handles
+2023-04-29T09:33:12.065Z Retrieving a content handle from target repo
+2023-04-29T09:33:12.065Z The requested resource isn't pre-resolved
+2023-04-29T09:33:12.065Z Target repository isn't virtual - verifying that downloading is allowed
+2023-04-29T09:33:12.066Z Creating a resource handle from 'test-remote-cache:artifactorysuw1-artifactory-05-01-2023-23-54-35.tar.gz'
+2023-04-29T09:33:12.066Z Identified requested resource as a file
+2023-04-29T09:33:12.066Z Requested resource is an ordinary artifact - using normal content handle with length '1921137229'
+2023-04-29T09:33:12.066Z Executing any BeforeDownload user plugins that may exist
+2023-04-29T09:33:12.066Z Responding with selected content handle
+2023-04-29T09:33:12.067Z Request succeeded
