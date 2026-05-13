@@ -11,13 +11,9 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: JFrogNpm@1
+
+
+- task: JfrogCliV2@1
   inputs:
-    command: 'install'
-    artifactoryConnection: 'hts2-arti-token'
-    sourceRepo: 'pruthvi-npm'
-    arguments: 'install'
-    collectBuildInfo: true
-    threads: '1'
-    buildName: '$(Build.DefinitionName)'
-    buildNumber: '$(Build.BuildNumber)'
+    jfrogPlatformConnection: 'hts2-oidc'
+    command: 'jf rt ping'
