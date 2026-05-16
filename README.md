@@ -10,7 +10,7 @@ This repository is structured in a specific way:
 - **Second-level directories** are **project directories** named after specific modules, frameworks, platforms, or tools - for example, `yargs` is a CLI framework, both `express` and `fastify` are web frameworks, and `moment` is a utility.
 - **Third-level directories** are **example directories**, where specific examples live. You can find a full list of these examples in the [Examples](#examples) section below.
 
-Here is an example of the structure in general terms:
+Here is an example of the structure in general terms::
 
 ```text
 - examples (root)
