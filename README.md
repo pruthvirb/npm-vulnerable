@@ -2,7 +2,7 @@
 
 This repository is a collective of opinionated and real-world examples of how you can use Node.js to build things.
 
-## How This Repository is Structured
+## How This Repository is Structured:
 
 This repository is structured in a specific way:
 
