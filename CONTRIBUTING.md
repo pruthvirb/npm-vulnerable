@@ -10,7 +10,7 @@ If you'd like to contribute an example, we'd genuinely appreciate your help. The
 
 - New examples should **probably** fit within the existing categories.
   - If there's an example you'd like to make that _doesn't_ fit into a category, please don't hesitate to create an issue to suggest a broad category that it _would_ fit within.
-- Usable example code. This means:
+- Usable example code. This means:::
   - Comprehensive comments.
   - Descriptive and readable variable names.
   - Modern JavaScript.
